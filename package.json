@@ -19,7 +19,7 @@
     "css:watch": "npm run style:watch & npm run theme:watch",
     "style": "postcss --config postcss.config.json --output ./dist/talkie.min.css ./src/style/index.css",
     "style:watch": "npm run style -- --watch --map",
-    "theme": "postcss --config postcss.config.json --output ./dist/talkie-default.min.css ./src/theme/default/index.css",
+    "theme": "postcss --config postcss.config.json --output ./dist/talkie-kaizen.min.css ./src/theme/kaizen/index.css",
     "theme:watch": "npm run theme -- --watch --map",
     "bundle": "browserify src/index.ts -dv -p licensify -p tsify | exorcist ./dist/talkie.min.js.map > ./dist/talkie.min.js",
     "bundle:watch": "watchify src/index.ts -dv -p licensify -p tsify -o 'exorcist ./dist/talkie.min.js.map > ./dist/talkie.min.js'",

@@ -1,0 +1,10 @@
+[data-body-bg=cover] {
+  background: transparent;
+}
+
+[layout=cover] {
+}
+
+[layout=cover] h1 {
+  text-align: center;
+}
